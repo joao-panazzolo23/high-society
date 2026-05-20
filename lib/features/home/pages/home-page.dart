@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:high_society/features/home/pages/display-test.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key, required this.title});
-
-  final String title;
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();

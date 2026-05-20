@@ -1,6 +1,5 @@
 ///this class was made to show widgets exclusively in debug mode.
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DisplayTest extends StatefulWidget {

@@ -10,6 +10,7 @@ class StoreList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ///ItemBuilder is lazy and does not materialize the entire list at once, way better than return
     return ListView.builder(
       itemCount: models.length,
       itemBuilder: (context, index) {

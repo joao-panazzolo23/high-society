@@ -36,9 +36,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'High Society',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const HomePage(title: 'Flutter Demo Home Page'),
+      home: const HomePage(),
     );
   }
 }
