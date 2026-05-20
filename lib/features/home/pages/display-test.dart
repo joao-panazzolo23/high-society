@@ -1,6 +1,7 @@
 ///this class was made to show widgets exclusively in debug mode.
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class DisplayTest extends StatefulWidget {
   const DisplayTest({super.key});
@@ -12,7 +13,14 @@ class DisplayTest extends StatefulWidget {
 class _DisplayTest extends State<DisplayTest> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Column(children: [
+      ..._displays()
+    ],);
+  }
+
+  List<Widget> _displays() {
+    return [
+      ElevatedButton(onPressed: () => {}, child: Text("TESTE")),
+    ];
   }
 }

@@ -10,7 +10,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-//Typography: Titles and others will have
+//Typography: Titles, button texts will have
 // HVD Comic Serif
 // and text/informative will have
 // Gotham/Helvetica
