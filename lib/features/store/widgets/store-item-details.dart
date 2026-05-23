@@ -13,6 +13,9 @@ class StoreItemDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: create modal to add model to the list
+    // This class should have all widget information's
+    // and also have an add button to show add it to the main page.
+    //Main page will have an provider returning
     throw UnimplementedError();
   }
 }
